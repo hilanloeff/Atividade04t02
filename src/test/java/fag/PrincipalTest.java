@@ -133,7 +133,7 @@ public class PrincipalTest {
         testesQuestao4++;
         
         // Simular entrada do usuário
-        String input = "8.5\n";
+        String input = "8,5\n";
         ByteArrayInputStream in = new ByteArrayInputStream(input.getBytes());
         Scanner scan = new Scanner(in);
         
